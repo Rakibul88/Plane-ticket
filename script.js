@@ -83,8 +83,20 @@ function calculation(){
 
 }
 
+/* Booking confirmation page  */
+
+    document.getElementById('booking-btn').addEventListener('click', function(){
+        const mainArea = document.getElementById('booking-area');
+        mainArea.style.display = 'none';
+
+        const confirmationArea = document.getElementById('confirmation');
+        confirmationArea.style.display = 'block';
+    })
 
 
+/* main id= booking-area
+ 
+    booking button id = booking-btn 
 
-
-
+    confirmation page id = confirmation
+*/
