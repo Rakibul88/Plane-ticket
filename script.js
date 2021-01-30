@@ -94,9 +94,3 @@ function calculation(){
     })
 
 
-/* main id= booking-area
- 
-    booking button id = booking-btn 
-
-    confirmation page id = confirmation
-*/
